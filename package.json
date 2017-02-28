@@ -1,0 +1,30 @@
+{
+  "name": "array-objectify",
+  "version": "1.0.0",
+  "description": "Hierarchically transform an array into object",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vajahath/array-objectify.git"
+  },
+  "author": "Vajahath Ahmed <vajuoff.1@gmail.com> (http://twitter.com/vajahath7)",
+  "license": "MIT",
+  "keywords": [
+    "array",
+    "object",
+    "transform",
+    "array to object",
+    "parser",
+    "parse"
+  ],
+  "bugs": {
+    "url": "https://github.com/vajahath/array-objectify/issues"
+  },
+  "homepage": "https://github.com/vajahath/array-objectify#readme",
+  "devDependencies": {
+    "lme": "^1.4.2"
+  }
+}
