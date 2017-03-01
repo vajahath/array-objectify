@@ -8,3 +8,5 @@ tests/
 .editorconfig
 .eslintignore
 .gitignore
+npm-debug.log
+*.spec.js
