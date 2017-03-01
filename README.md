@@ -1,3 +1,6 @@
+> **Still in Beta**. Not yet ready for production use <br>
+> Actual Release on 3rd March 2017 :balloon:
+
 [![Build Status](https://travis-ci.org/vajahath/array-objectify.svg?branch=master)](https://travis-ci.org/vajahath/array-objectify)
 
 ![](https://raw.githubusercontent.com/vajahath/array-objectify/master/media/highlight.png)
@@ -50,7 +53,7 @@ let hierarchy = ['fruit', 'color'];
 // parse data in the order of given hierarchy
 let objectified = arrayObjectify(hierarchy, data);
 console.log(objectified);
-/* output=> 
+/* output=>
 
 {
 	"apple": {
