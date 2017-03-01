@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/vajahath/array-objectify.svg?branch=master)](https://travis-ci.org/vajahath/array-objectify)
+
 ![](https://raw.githubusercontent.com/vajahath/array-objectify/master/media/highlight.png)
 
 ## Install / Update
