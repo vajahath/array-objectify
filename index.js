@@ -1,5 +1,5 @@
 // helper function to make nested objects
-var assign = function(obj, keyPath, value) {
+var assign = function(obj, keyPath, value, keepDuplications) {
 	var lastKeyIndex = keyPath.length - 1;
 	for (var i = 0; i < lastKeyIndex; i++) {
 		var key = keyPath[i];
@@ -7,10 +7,27 @@ var assign = function(obj, keyPath, value) {
 			obj[key] = {};
 		obj = obj[key];
 	}
-	obj[keyPath[lastKeyIndex]] = value;
+	if (!obj[keyPath[lastKeyIndex]]) {
+		obj[keyPath[lastKeyIndex]] = {};
+	}
+	for (key in value) {
+		if (obj[keyPath[lastKeyIndex]][key]) {
+			if (keepDuplications) {
+				obj[keyPath[lastKeyIndex]][key].push(value[key]);
+			} else {
+				if (obj[keyPath[lastKeyIndex]][key].indexOf(value[key]) < 0) {
+					obj[keyPath[lastKeyIndex]][key].push(value[key]);
+				}
+			}
+		} else {
+			obj[keyPath[lastKeyIndex]][key] = [value[key]];
+		}
+	}
+
 };
 
-module.exports = function(hierarchy, data) {
+module.exports = function(hierarchy, data, keepRepetitoins) {
+	var keepDuplications = keepRepetitoins || false;
 	// generate raw data
 	var raw = [];
 	data.forEach(function(piece) {
@@ -38,7 +55,7 @@ module.exports = function(hierarchy, data) {
 	// build output
 	var output = {};
 	raw.forEach(function(item) {
-		assign(output, item.ancestorPath, item.content);
+		assign(output, item.ancestorPath, item.content, keepDuplications);
 	});
 
 	// oh yes
