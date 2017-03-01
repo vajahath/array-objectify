@@ -50,7 +50,7 @@ let hierarchy = ['fruit', 'color'];
 // parse data in the order of given hierarchy
 let objectified = arrayObjectify(hierarchy, data);
 console.log(objectified);
-/* output=>
+/* output=> 
 
 {
 	"apple": {
