@@ -1,3 +1,5 @@
+![](https://raw.githubusercontent.com/vajahath/array-objectify/master/media/highlight.png)
+
 ## Install / Update
 
 ```bash
@@ -45,7 +47,7 @@ let hierarchy = ['fruit', 'color'];
 
 // parse data in the order of given hierarchy
 let objectified = arrayObjectify(hierarchy, data);
-
+console.log(objectified);
 /* output=>
 
 {
@@ -158,7 +160,7 @@ output =>
 }
 
 ```
-Let's run this again with `keepRepetetions` turned on:
+Let's run this again with `keepRepetetions` turned on, so that you can visually differentiate the action of `keepRepetetions` flag:
 ```js
 let out = arrayObjectify(hierarchy, data, true);
 console.log(out);
@@ -184,7 +186,7 @@ output =>
 	}
 }
 ```
-Look at the `mango` field: `Vitamin yellow` is repeating. It will not repeat if `keepRepetetions` is turned off.
+Look at the `mango` field: `Vitamin yellow` is repeating. In some usecases, it may requre things in that way. It will not repeat if `keepRepetetions` is turned off.
 
 ---
 
