@@ -3,6 +3,10 @@
 var expect = require('chai').expect;
 var isEqual = require('lodash').isEqual;
 var arrayObjectify = require('./index');
+var lme = require('lme');
+
+lme.s('starting tests');
+lme.sline();
 
 describe('Array to object converter', function() {
 	it('successfully converts array to object with keepDuplications=true', function(done) {

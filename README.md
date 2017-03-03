@@ -1,7 +1,3 @@
-> **Still in Beta**. Not yet ready for production use. <br>
-> But you can try this package.<br>
-> Actual Release on 3rd March 2017 :balloon:
-
 [![Build Status](https://travis-ci.org/vajahath/array-objectify.svg?branch=master)](https://travis-ci.org/vajahath/array-objectify)
 
 ![](https://raw.githubusercontent.com/vajahath/array-objectify/master/media/highlight.png)
