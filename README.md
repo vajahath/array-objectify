@@ -4,6 +4,8 @@
 
 ## Install / Update
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/vajahath/array-objectify.svg)](https://greenkeeper.io/)
+
 ```bash
 npm install --save array-objectify
 ```
