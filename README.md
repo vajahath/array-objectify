@@ -1,6 +1,7 @@
 [![Build Status](https://travis-ci.org/vajahath/array-objectify.svg?branch=master)](https://travis-ci.org/vajahath/array-objectify)
 
 ![](https://raw.githubusercontent.com/vajahath/array-objectify/master/media/highlight.png)
+[![Greenkeeper badge](https://badges.greenkeeper.io/vajahath/array-objectify.svg)](https://greenkeeper.io/)
 
 ## Install / Update
 
