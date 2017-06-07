@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/vajahath/array-objectify.svg?branch=master)](https://travis-ci.org/vajahath/array-objectify) [![Greenkeeper badge](https://badges.greenkeeper.io/vajahath/array-objectify.svg)](https://greenkeeper.io/)
+[![npm](https://img.shields.io/npm/v/array-objectify.svg)](https://www.npmjs.com/package/array-objectify) [![Build Status](https://travis-ci.org/vajahath/array-objectify.svg?branch=master)](https://travis-ci.org/vajahath/array-objectify) [![Greenkeeper badge](https://badges.greenkeeper.io/vajahath/array-objectify.svg)](https://greenkeeper.io/) [![npm](https://img.shields.io/npm/dt/array-objectify.svg)](https://www.npmjs.com/package/array-objectify) 
 
 ![](https://raw.githubusercontent.com/vajahath/array-objectify/master/media/highlight.png)
 
@@ -196,6 +196,8 @@ Look at the `mango` field: `Vitamin yellow` is repeating. In some usecases, it m
 
 Enjoy :)
 
+> Just in case, if you liked this package, [![PayPal][badge_paypal_donate]][paypal-donations]
+
 ## Change log
 - **v1.0.0**
     - Initial release
@@ -203,3 +205,6 @@ Enjoy :)
 
 ## License
 MIT &copy; [Vajahath Ahmed](https://mycolorpad.blogspot.in)
+
+[badge_paypal_donate]: https://cdn.rawgit.com/vajahath/cloud-codes/a01f087f/badges/paypal_donate.svg
+[paypal-donations]: https://paypal.me/vajahath
