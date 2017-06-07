@@ -199,9 +199,12 @@ Enjoy :)
 > Just in case, if you liked this package, [![PayPal][badge_paypal_donate]][paypal-donations]
 
 ## Change log
+- **v1.0.1**
+    - Better docs
+	- Handling greenkeeper issues
+
 - **v1.0.0**
     - Initial release
-
 
 ## License
 MIT &copy; [Vajahath Ahmed](https://mycolorpad.blogspot.in)
