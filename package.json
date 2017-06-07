@@ -1,6 +1,6 @@
 {
   "name": "array-objectify",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Hierarchically transform an array of objects into a single object",
   "main": "index.js",
   "scripts": {
