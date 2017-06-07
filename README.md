@@ -202,7 +202,7 @@ Enjoy :)
 > Just in case, if you liked this package, [![PayPal][badge_paypal_donate]][paypal-donations]
 
 ## Change log
-- **v1.0.1**
+- **v1.0.1, 1.0.2**
     - Better docs
 	- Handling greenkeeper issues
 
