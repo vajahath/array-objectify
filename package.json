@@ -1,35 +1,40 @@
 {
-  "name": "array-objectify",
-  "version": "1.0.2",
-  "description": "Hierarchically transform an array of objects into a single object",
-  "main": "index.js",
-  "scripts": {
-    "test": "./node_modules/.bin/mocha *.spec.js --reporter spec",
-    "lint": "eslint ."
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/vajahath/array-objectify.git"
-  },
-  "author": "Vajahath Ahmed <vajuoff.1@gmail.com> (http://twitter.com/vajahath7)",
-  "license": "MIT",
-  "keywords": [
-    "array",
-    "object",
-    "transform",
-    "array to object",
-    "parser",
-    "parse"
-  ],
-  "bugs": {
-    "url": "https://github.com/vajahath/array-objectify/issues"
-  },
-  "homepage": "https://github.com/vajahath/array-objectify#readme",
-  "devDependencies": {
-    "chai": "^4.0.2",
-    "eslint": "^3.16.1",
-    "lme": "^1.5.1",
-    "lodash": "^4.17.4",
-    "mocha": "^3.4.0"
-  }
+	"name": "array-objectify",
+	"version": "1.0.3",
+	"description":
+		"Hierarchically transform an array of objects into a single object",
+	"main": "index.js",
+	"scripts": {
+		"test": "./node_modules/.bin/mocha *.spec.js --reporter spec",
+		"lint": "eslint ."
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/vajahath/array-objectify.git"
+	},
+	"author":
+		"Vajahath Ahmed <vajuoff.1@gmail.com> (http://twitter.com/vajahath7)",
+	"license": "MIT",
+	"keywords": [
+		"array",
+		"object",
+		"transform",
+		"array to object",
+		"parser",
+		"parse"
+	],
+	"bugs": {
+		"url": "https://github.com/vajahath/array-objectify/issues"
+	},
+	"homepage": "https://github.com/vajahath/array-objectify#readme",
+	"devDependencies": {
+		"chai": "^4.0.2",
+		"eslint": "^3.16.1",
+		"lme": "^1.5.1",
+		"lodash": "^4.17.4",
+		"mocha": "^3.4.0"
+	},
+	"greenkeeper": {
+		"ignore": ["chai", "eslint", "lme", "lodash", "mocha"]
+	}
 }
